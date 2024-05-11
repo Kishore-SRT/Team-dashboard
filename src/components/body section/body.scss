@@ -1,0 +1,21 @@
+.mainContent{
+    width: 82%;
+    height: 100%;
+    padding: 2rem;
+    overflow: auto;
+    background: hsl(201, 100%, 66%);
+
+    .Bottom{
+        margin-top: 2rem;
+        gap: 2rem;
+        align-items: flex-start;
+    }
+}
+
+// media queries ================>
+
+@media screen and (max-width: 910px) {
+    .Bottom{
+        flex-direction: column;
+    }
+}
